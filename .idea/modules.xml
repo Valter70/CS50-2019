@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CS50-2019.iml" filepath="$PROJECT_DIR$/CS50-2019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week2/caesar/caesar.iml" filepath="$PROJECT_DIR$/week2/caesar/caesar.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/cash/cash.iml" filepath="$PROJECT_DIR$/week1/cash/cash.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/credit/credit.iml" filepath="$PROJECT_DIR$/week1/credit/credit.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/mario/mario.iml" filepath="$PROJECT_DIR$/week1/mario/mario.iml" />
