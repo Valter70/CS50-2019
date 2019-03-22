@@ -26,12 +26,16 @@ fun main() {
 }
 
 fun getNewChar(ch: Char, key: Int) =
-    if(ch.isLowerCase())
-        ((getAbsNumber(ch) + key) % 26 + LOW_OFFSET).toChar()
-    else
-        ((getAbsNumber(ch) + key) % 26 + UP_OFFSET).toChar()
+    when(ch.isLowerCase()) {
+        true -> ((getAbsNumber(ch) + key) % 26 + LOW_OFFSET).toChar()
+        false -> ((getAbsNumber(ch) + key) % 26 + UP_OFFSET).toChar()
+    }
 
-fun getAbsNumber(ch: Char) = if(ch.isLowerCase()) (ch - LOW_OFFSET).toInt() else (ch - UP_OFFSET).toInt()
+fun getAbsNumber(ch: Char) =
+    when(ch.isLowerCase()) {
+        true -> (ch - LOW_OFFSET).toInt()
+        false -> (ch - UP_OFFSET).toInt()
+    }
 
 fun isPositiveDigital(str: String) : Boolean {
     return isDigital(str) && str.toInt() > 0
