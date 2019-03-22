@@ -28,7 +28,7 @@ fun isPositiveDigital(str: String) : Boolean {
 
 fun isDigital(str: String) : Boolean {
     for(i in 0 until str.length) {
-        if(str[i] !in '0'..'9') return false
+        if(!str[i].isDigit()) return false
     }
     return true
 }
