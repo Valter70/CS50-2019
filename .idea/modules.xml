@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/week1/credit/credit.iml" filepath="$PROJECT_DIR$/week1/credit/credit.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/mario/mario.iml" filepath="$PROJECT_DIR$/week1/mario/mario.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/mario_hard/mario_hard.iml" filepath="$PROJECT_DIR$/week1/mario_hard/mario_hard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week2/vigenere/vigenere.iml" filepath="$PROJECT_DIR$/week2/vigenere/vigenere.iml" />
     </modules>
   </component>
 </project>
